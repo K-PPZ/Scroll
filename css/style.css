@@ -32,10 +32,13 @@ ul {
 
 
 header {
+    background-color: white;
     display: flex;
     align-items: center;
     padding: 1%;
     margin-bottom: 5%;
+    position: sticky;
+    top: 0;
 }
 
 header img {
@@ -47,11 +50,6 @@ header img {
 header a {
     padding: 10px;
     color: black;
-}
-
-header a:hover {
-    background-color: gray;
-    color: white;
 }
 
 div {
